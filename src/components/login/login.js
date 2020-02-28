@@ -1,23 +1,5 @@
 import React, {Component} from 'react';
 
-//const Login = () => {
-//    const emailText = "Type here your email";
-//    const passwordText = "Type here your password";
-//    const searchStyle = {
-//        fontSize: "22px",
-//        display: "block"
-//    };
-//    return  (
-//        <form>
-//            <input placeholder = {emailText} style={searchStyle} />
-//            <input placeholder = {passwordText} style={searchStyle} />
-//            <button>Login</button>
-//        </form >
-//    );
-//};
-//
-//export default Login;
-
 export default class Login extends Component {
     state = {
         name: '',
