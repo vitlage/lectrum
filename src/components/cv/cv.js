@@ -41,7 +41,7 @@ export default class CV extends Component {
             <div>
                 <ul>
                     {this.state.cvItems.map(elm => {
-                        return <li>{elm.label}</li>;
+                        return <li key={elm.id}>{elm.label}</li>;
                     })}
                 </ul>
                 <form onSubmit={this.onSubmitForm}>
